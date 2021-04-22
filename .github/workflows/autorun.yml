@@ -3,7 +3,7 @@ name: GitHub Actions Auto Run
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 9 * * *'   #在每天1:00（UTC时间）自动运行
+    - cron: '33 23 * * *'   #在每天1:00（UTC时间）自动运行
 
 jobs:
   bot:
